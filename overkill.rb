@@ -19,7 +19,7 @@ module Overkill
       apps = {
         "iTunes" => "🎵"
       }
-      apps["Photos"] = "🖼" if ENV["KILL_PHOTOS"]
+      apps["Photos"] = "🖼"
 
       apps
     end
